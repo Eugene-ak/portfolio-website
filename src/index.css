@@ -13,6 +13,37 @@ body {
   gap: 2rem;
 }
 
+.mobile-navbar {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  background-color: #1B1A55;
+  border-top: 1px solid white;
+}
+
+.mobile-navbar ul {
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.mobile-navbar ul li {
+  text-align: center;
+  width: 70%;
+  padding: 1rem;
+  border-bottom: 1px solid cornsilk;
+}
+
 .skills-section div ul li {
   background-color: blueviolet;
   /* font-size: 1.2rem; */
