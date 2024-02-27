@@ -2,7 +2,7 @@ export default function Contact() {
   const inputClass: string = "w-full h-16 px-4 border rounded-xl";
 
   return (
-    <section className="bg-[#1B1A55] contact-section px-40 py-8 flex flex-col items-center gap-8">
+    <section id="contact-section" className="bg-[#1B1A55] contact-section px-40 py-8 flex flex-col items-center gap-8">
       <h1 className="text-[3rem]">&lt; Contact Me /&gt;</h1>
       {/* <ul>
         <li>amedioreugene@gmail.com</li>

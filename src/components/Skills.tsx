@@ -4,7 +4,7 @@ export default function Skills() {
   // const spanClass: string = "w-[10rem] h-[10rem] m-[1.5rem] border flex items-center justify-center";
 
   return (
-    <section className="skills-section w-full h-max px-40 py-8 flex flex-col items-center gap-4">
+    <section id="skills-section" className="skills-section w-full h-max px-40 py-8 flex flex-col items-center gap-4">
       <h1 className="text-[3rem]">&lt; Skills /&gt;</h1>
       <div className="w-full h-max">
         <ul className="flex flex-row flex-wrap items-start justify-evenly">

@@ -20,7 +20,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="hero w-[100%] h-[80vh] py-4 flex flex-row items-center justify-center">
+    <section id="hero-section" className="hero w-[100%] h-[80vh] py-4 mt-[8rem] flex flex-row items-center justify-center">
       <div className="w-[40%] hero-text flex flex-col items-start gap-2">
         <h1 className="text-[4rem] font-bold">Hello there</h1>
         <p className="text-[1.8rem]">
