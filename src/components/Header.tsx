@@ -5,7 +5,8 @@ import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
 
-  const navRef = useRef();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const navRef: any = useRef();
 
   function showMenu() {
     navRef.current.classList.toggle("hidden");
