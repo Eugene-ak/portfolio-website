@@ -1,11 +1,14 @@
 export default function Skills() {
-
-  const spanClass: string = "w-[15rem] h-[10rem] m-[1.5rem] border flex items-center justify-center";
+  const spanClass: string =
+    "w-[8rem] h-[5rem] md:w-[15rem] md:h-[10rem] m-[0.5rem] md:m-[1.5rem] text-[1rem] md:text-[1.5rem] border flex items-center justify-center";
   // const spanClass: string = "w-[10rem] h-[10rem] m-[1.5rem] border flex items-center justify-center";
 
   return (
-    <section id="skills-section" className="skills-section w-full h-max px-40 py-8 flex flex-col items-center gap-4">
-      <h1 className="text-[3rem]">&lt; Skills /&gt;</h1>
+    <section
+      id="skills-section"
+      className="skills-section w-full h-max px-8 lg:px-40 py-8 flex flex-col items-center gap-4"
+    >
+      <h1 className="text-[2.2rem] sm:text-[3rem]">&lt; Skills /&gt;</h1>
       <div className="w-full h-max">
         <ul className="flex flex-row flex-wrap items-start justify-evenly">
           <li className={spanClass}>HTML</li>

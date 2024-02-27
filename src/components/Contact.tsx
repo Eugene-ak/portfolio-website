@@ -2,8 +2,8 @@ export default function Contact() {
   const inputClass: string = "w-full h-16 px-4 border rounded-xl";
 
   return (
-    <section id="contact-section" className="bg-[#1B1A55] contact-section px-40 py-8 flex flex-col items-center gap-8">
-      <h1 className="text-[3rem]">&lt; Contact Me /&gt;</h1>
+    <section id="contact-section" className="bg-[#1B1A55] contact-section px-8 md:px-40 py-8 flex flex-col items-center gap-8">
+      <h1 className="text-[2.2rem] sm:text-[3rem]">&lt; Contact Me /&gt;</h1>
       {/* <ul>
         <li>amedioreugene@gmail.com</li>
         <li>LinkedIn</li>
@@ -18,7 +18,6 @@ export default function Contact() {
         target="_self"
         className="w-full text-[#070F2B] flex flex-col items-start justify-evenly gap-6"
       >
-        <p className="text-[2rem] text-white">Reach out to me</p>
         <input type="text" className={inputClass} placeholder="Full name" />
         <input type="text" className={inputClass} placeholder="Email" />
         <textarea

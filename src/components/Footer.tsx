@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
-    <footer className="w-full h-max px-40 flex flex-row items-center justify-between">
+    <footer className="w-full h-max px-8 md:px-40 flex flex-row items-center justify-between">
       <img src="/logo1.jpg" alt="logo" className="w-16 rounded-full" />
       <div>&copy; 2024</div>
       <div>
-        <ul className="flex flex-row items-center justify-evenly gap-4">
+        <ul className="flex flex-row items-center justify-evenly gap-2">
           <li>
             <a href="https://linkedin.com/in/eugene-amedior-aa19b420a" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
